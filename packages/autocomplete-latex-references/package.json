@@ -1,0 +1,58 @@
+{
+  "_from": "https://www.atom.io/api/packages/autocomplete-latex-references/versions/0.3.1/tarball",
+  "_id": "autocomplete-latex-references@0.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-ZJAx8olwur8vjyf6Mkg//hMTdt7mIeJb+5Besx68BYZyBlzQg8Js+8UwLVuWqGK5E0585Gl8EzDAUmZMWZuRgg==",
+  "_location": "/autocomplete-latex-references",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/autocomplete-latex-references/versions/0.3.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/autocomplete-latex-references/versions/0.3.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/autocomplete-latex-references/versions/0.3.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/autocomplete-latex-references/versions/0.3.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/autocomplete-latex-references/versions/0.3.1/tarball",
+  "_shasum": "290ab0535cc4049da0640e6094c8e3316869fc6a",
+  "_spec": "https://www.atom.io/api/packages/autocomplete-latex-references/versions/0.3.1/tarball",
+  "_where": "/private/var/folders/m2/294m7qtx3ynggdtl5__66b9h0000gn/T/apm-install-dir-118927-2922-1u8uawy.utpa",
+  "activationHooks": [
+    "language-latex:grammar-used",
+    "language-latex2e:grammar-used"
+  ],
+  "bugs": {
+    "url": "https://github.com/hesstobi/atom-autocomplete-latex-references/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fuse.js": "^3.1.0",
+    "glob": "^7.1.2",
+    "promisify-node": "^0.4.0"
+  },
+  "deprecated": false,
+  "description": "Autocomplete Plus Support for Latex References",
+  "engines": {
+    "atom": ">=1.21.0 <2.0.0"
+  },
+  "homepage": "https://github.com/hesstobi/atom-autocomplete-latex-references#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "autocomplete-latex-references",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hesstobi/atom-autocomplete-latex-references.git"
+  },
+  "version": "0.3.1"
+}

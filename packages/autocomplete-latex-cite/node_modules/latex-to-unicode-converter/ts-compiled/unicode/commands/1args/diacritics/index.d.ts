@@ -1,0 +1,34 @@
+export declare const barUnderLetter: (char: string) => string;
+export declare const dotUnderLetter: (char: string) => string;
+export declare const breve: (char: string) => string;
+export declare const macrron: (char: string) => string;
+export declare const dotOverLetter: (char: string) => string;
+export declare const modifiersTextModeUnicodeChart: {
+    "`": (s: string) => string;
+    "'": (s: string) => string;
+    "^": (s: string) => string;
+    "~": (s: string) => string;
+    "=": (char: string) => string;
+    ".": (char: string) => string;
+    '"': (s: string) => string;
+    "H": (s: string) => string;
+    "c": (s: string) => string;
+    "k": (char: string) => string;
+    "b": (char: string) => string;
+    "d": (char: string) => string;
+    "r": (s: string) => string;
+    "u": (char: string) => string;
+    "v": (s: string) => string;
+    "t": (chars: string) => string;
+};
+export declare const modifiersMathModeUnicodeChart: {
+    "check": (s: string) => string;
+    "acute": (s: string) => string;
+    "grave": (s: string) => string;
+    "breve": (char: string) => string;
+    "vec": (s: string) => string;
+    "mathring": (s: string) => string;
+};
+export declare type ModifiersTextMode = keyof typeof modifiersTextModeUnicodeChart;
+export declare type ModifiersMathModeUnicode = keyof typeof modifiersMathModeUnicodeChart;
+export declare const diacriticUnicode: (str: string, arg: string) => string | undefined;

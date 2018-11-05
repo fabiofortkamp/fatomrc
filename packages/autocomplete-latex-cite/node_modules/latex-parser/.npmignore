@@ -1,0 +1,12 @@
+/webpack.config.js
+/ts-compiled-webpack/
+*.map
+*.tgz
+/node_modules/
+/sources/
+/src/
+/tests/
+/deprecated/
+/latex-parser.min.js
+/latex-parser.min.js.*
+/deprecated

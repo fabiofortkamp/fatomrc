@@ -1,0 +1,57 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.elsevierGlyphsUnicodeChart = {
+    "2129": "℩",
+    "21B3": "↳",
+    "2232": "∲",
+    "2233": "∳",
+    "2238": "∸",
+    "2242": "≂",
+    "225A": "≚",
+    "225F": "≟",
+    "2274": "≴",
+    "2275": "≵",
+    "22C0": "⋀",
+    "22C1": "⋁",
+    "E838": "⌽",
+    "E381": "▱",
+    "E212": "⤅",
+    "E20C": "⤣",
+    "E20D": "⤤",
+    "E20B": "⤥",
+    "E20A": "⤦",
+    "E211": "⤧",
+    "E20E": "⤨",
+    "E20F": "⤩",
+    "E210": "⤪",
+    "E21C": "⤳",
+    "E21D": "⤳",
+    "E21A": "⤶",
+    "E219": "⤷",
+    "E214": "⥼",
+    "E215": "⥽",
+    "E291": "⦔",
+    "E260": "⦵",
+    "E61B": "⦶",
+    "E372": "⧜",
+    "E395": "⨐",
+    "E25A": "⨥",
+    "E25B": "⨪",
+    "E25C": "⨭",
+    "E25D": "⨮",
+    "E25E": "⨴",
+    "E25F": "⨵",
+    "E259": "⨼",
+    "E36E": "⩕",
+    "E30D": "⫫",
+    "300A": "《",
+    "300B": "》",
+    "3018": "〘",
+    "3019": "〙",
+};
+function isElsevierGlyph(x) {
+    return exports.elsevierGlyphsUnicodeChart.hasOwnProperty(x);
+}
+exports.isElsevierGlyph = isElsevierGlyph;
+exports.translateCharToElsevier = function (char) { return isElsevierGlyph(char) ? exports.elsevierGlyphsUnicodeChart[char] : undefined; };
+//# sourceMappingURL=elsevier.js.map

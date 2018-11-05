@@ -1,0 +1,22 @@
+"*":
+  "advanced-open-file":
+    fuzzyMatch: true
+  "autocomplete-paths": {}
+  "autocomplete-python":
+    useKite: false
+  core:
+    packagesWithKeymapsDisabled: [
+      "advanced-open-file"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    tabLength: 4
+  "exception-reporting":
+    userId: "6e63e099-b889-4e41-8a6b-37b961bdd81f"
+  latex:
+    buildOnSave: true
+  "platformio-ide-terminal":
+    style:
+      theme: "novel"
+  welcome:
+    showOnStartup: false

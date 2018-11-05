@@ -1,0 +1,63 @@
+{
+  "_from": "https://www.atom.io/api/packages/autocomplete-latex-cite/versions/0.3.2/tarball",
+  "_id": "autocomplete-latex-cite@0.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-9DbifqrSJ9TazpHvk2hLn1QRgleqMSFcPPGqrx7GmWAycarTAOQExjtInJQk+s1yAIwOwN202V3wPwfG09xdow==",
+  "_location": "/autocomplete-latex-cite",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/autocomplete-latex-cite/versions/0.3.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/autocomplete-latex-cite/versions/0.3.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/autocomplete-latex-cite/versions/0.3.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/autocomplete-latex-cite/versions/0.3.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/autocomplete-latex-cite/versions/0.3.2/tarball",
+  "_shasum": "8bcc474520227401274da2c9afbabfc3dd94d4a3",
+  "_spec": "https://www.atom.io/api/packages/autocomplete-latex-cite/versions/0.3.2/tarball",
+  "_where": "/private/var/folders/m2/294m7qtx3ynggdtl5__66b9h0000gn/T/apm-install-dir-118927-2835-rq4936.elk2",
+  "activationHooks": [
+    "language-latex:grammar-used",
+    "language-latex2e:grammar-used"
+  ],
+  "bugs": {
+    "url": "https://github.com/hesstobi/atom-autocomplete-latex-cite/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "citation-js": "^0.3.4",
+    "fuse.js": "^3.2.0",
+    "glob": "^7.1.2",
+    "latex-to-unicode-converter": "^0.5.0",
+    "promisify-node": "^0.5.0"
+  },
+  "deprecated": false,
+  "description": "Autocomplete+ Support for Bibtex References in Latex",
+  "devDependencies": {
+    "fs-extra": "^6.0.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/hesstobi/atom-autocomplete-latex-cite#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "autocomplete-latex-cite",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hesstobi/atom-autocomplete-latex-cite.git"
+  },
+  "version": "0.3.2"
+}

@@ -1,0 +1,35 @@
+export declare const diacriticsTextMode: {
+    "`": boolean;
+    "'": boolean;
+    "^": boolean;
+    "~": boolean;
+    "=": boolean;
+    ".": boolean;
+    '"': boolean;
+    "H": boolean;
+    "c": boolean;
+    "k": boolean;
+    "b": boolean;
+    "d": boolean;
+    "r": boolean;
+    "u": boolean;
+    "v": boolean;
+};
+export declare const diacriticsMathMode: {
+    "hat": boolean;
+    "widehat": boolean;
+    "check": boolean;
+    "tilde": boolean;
+    "widetilde": boolean;
+    "acute": boolean;
+    "grave": boolean;
+    "dot": boolean;
+    "ddot": boolean;
+    "breve": boolean;
+    "bar": boolean;
+    "vec": boolean;
+    "mathring": boolean;
+};
+export declare type DiacriticCmd1ArgTextMode = keyof typeof diacriticsTextMode;
+export declare type DiacriticCmd1ArgMathMode = keyof typeof diacriticsMathMode;
+export declare type DiacriticCmd1Arg = DiacriticCmd1ArgMathMode | DiacriticCmd1ArgTextMode;
